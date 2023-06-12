@@ -99,7 +99,7 @@ h6 {
 .nav-link {
   font-weight: 500;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--second-logo-color-header);
   display: block;
   padding: 24px 0;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -179,7 +179,6 @@ h6 {
 }
 .hero-btn {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -187,7 +186,7 @@ h6 {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
-  background: #4d5ae5;
+  background: var(--first-logo-color);
   cursor: pointer;
   color: var(--white-color);
   padding: 16px 32px;
@@ -221,7 +220,7 @@ h6 {
   justify-content: center;
   height: 112px;
   margin-bottom: 8px;
-  background: #f4f4fd;
+  background: var(--second-logo-color-footer);
   border-radius: 4px;
 }
 .advant-title {
@@ -248,7 +247,7 @@ h6 {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
-  color: #2e2f42;
+  color: var(--second-logo-color-header);
   margin-bottom: 72px;
 }
 .about-list {
@@ -261,7 +260,7 @@ h6 {
 
 /* Our Team */
 .our-team {
-  background: #f4f4fd;
+  background: var(--second-logo-color-footer);
   padding: 120px 0;
 }
 .team-list {
@@ -275,11 +274,11 @@ h6 {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--second-logo-color-header);
   margin-bottom: 72px;
 }
 .team-item {
-  background: #ffffff;
+  background: var(--white-color);
   width: calc((100% - 24px * 3) / 4);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -294,7 +293,7 @@ h6 {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--second-logo-color-header);
   margin-bottom: 8px;
 }
 .team-position {
@@ -345,7 +344,7 @@ h6 {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
-  color: #2e2f42;
+  color: var(--second-logo-color-header);
 }
 .customers-list {
   display: flex;
@@ -377,7 +376,7 @@ h6 {
 
 /* Footer */
 .footer {
-  background: #2e2f42;
+  background: var(--second-logo-color-header);
   padding: 100px 0;
 }
 .footer-logo {
@@ -393,7 +392,7 @@ h6 {
 }
 .footer-text {
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: var(--second-logo-color-footer);
   max-width: 264px;
 }
 .footer-container {
@@ -458,13 +457,12 @@ h6 {
 }
 .filters-btn {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background: #f4f4fd;
+  color: var(--first-logo-color);
+  background: var(--second-logo-color-footer);
   cursor: pointer;
   padding: 12px 24px;
   border: 1px solid #e7e9fc;
@@ -476,7 +474,7 @@ h6 {
 }
 .filters-btn:hover,
 .filters-btn:focus {
-  color: #ffffff;
+  color: var(--white-color);
   background-color: #404bbf;
   border-radius: 4px;
   border: 1px solid transparent;
@@ -588,7 +586,7 @@ h6 {
 .modal-btn:hover,
 .modal-btn:focus {
   background-color: #404bbf;
-  color: #ffffff;
+  color: var(--white-color);
   border: none;
 }
 .is-hidden {
